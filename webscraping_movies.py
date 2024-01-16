@@ -17,7 +17,7 @@ csv_path = '../webscraping_project/top_50_films.csv'
 df = pd.DataFrame(columns=['Average Rank', 'Film', 'Year'])
 count = 0
 
-html_page = requests.get(url).textpytho2
+html_page = requests.get(url).text
 data = BeautifulSoup(html_page, 'html.parser')
 
 tables = data.find_all('tbody')
