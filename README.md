@@ -1,5 +1,12 @@
 # Web Scraping Project: Content Extraction
 
+## Library and Framework
+
+- **pandas:** Used for data storage and manipulation.
+- **BeautifulSoup:** Used for interpreting the HTML document.
+- **requests:** Used to communicate with the web page.
+- **sqlite3:** Creating the database instance.
+
 ## Overview
 
 This project focuses on web scraping using the `requests` and `BeautifulSoup` libraries to extract the contents of a web page. The primary objective is to analyze the HTML code of a webpage, identify relevant information, and extract it for further use.
